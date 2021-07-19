@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="browser" value="firefox" />
+	<parameter name="url" value="https://www.oldmutualfinance.co.za/" />
+	<test name="ParameterTest 1">
+		<classes>
+			<class
+				name="com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage" />
+			<class
+				name="com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage" />
+			<class
+				name="com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

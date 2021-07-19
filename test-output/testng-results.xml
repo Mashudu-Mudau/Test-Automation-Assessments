@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-19T09:10:37 SAST" name="Suite" finished-at="2021-07-19T09:12:04 SAST" duration-ms="87276">
+    <groups>
+    </groups>
+    <test started-at="2021-07-19T09:10:37 SAST" name="ParameterTest 1" finished-at="2021-07-19T09:12:04 SAST" duration-ms="87276">
+      <class name="com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan">
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan@7ed7259e]" started-at="2021-07-19T09:11:18 SAST" name="methodName" finished-at="2021-07-19T09:11:18 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan.Navigate_to_Personal_Loan_Calculator() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="Navigate_to_Personal_Loan_Calculator()[pri:3, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan@7ed7259e]" started-at="2021-07-19T09:11:18 SAST" name="Navigate_to_Personal_Loan_Calculator" finished-at="2021-07-19T09:12:04 SAST" duration-ms="46219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_to_Personal_Loan_Calculator -->
+      </class> <!-- com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan -->
+      <class name="com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage">
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage@3d51f06e]" started-at="2021-07-19T09:10:51 SAST" name="methodName" finished-at="2021-07-19T09:10:51 SAST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage.Navigate_To_Personal_Loans_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="Navigate_To_Personal_Loans_Page()[pri:2, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage@3d51f06e]" started-at="2021-07-19T09:10:51 SAST" name="Navigate_To_Personal_Loans_Page" finished-at="2021-07-19T09:11:18 SAST" duration-ms="26405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_To_Personal_Loans_Page -->
+      </class> <!-- com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage -->
+      <class name="com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage@15eb5ee5]" started-at="2021-07-19T09:10:12 SAST" name="beforeClass" finished-at="2021-07-19T09:10:37 SAST" duration-ms="24812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.oldmutualfinance.co.za/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage@15eb5ee5]" started-at="2021-07-19T09:10:37 SAST" name="generateReport" finished-at="2021-07-19T09:10:37 SAST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage@15eb5ee5]" started-at="2021-07-19T09:10:37 SAST" name="methodName" finished-at="2021-07-19T09:10:37 SAST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage.Browse_To_Old_Mutual_Finance_Home_Screen() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="Browse_To_Old_Mutual_Finance_Home_Screen()[pri:1, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage@15eb5ee5]" started-at="2021-07-19T09:10:37 SAST" name="Browse_To_Old_Mutual_Finance_Home_Screen" finished-at="2021-07-19T09:10:51 SAST" duration-ms="14369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_To_Old_Mutual_Finance_Home_Screen -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage@15eb5ee5]" started-at="2021-07-19T09:12:04 SAST" name="afterClass" finished-at="2021-07-19T09:12:07 SAST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage -->
+    </test> <!-- ParameterTest 1 -->
+  </suite> <!-- Suite -->
+</testng-results>

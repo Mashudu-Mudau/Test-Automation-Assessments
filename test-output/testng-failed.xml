@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.oldmutualfinance.co.za/"/>
+  <test thread-count="5" name="ParameterTest 2(failed)">
+    <classes>
+      <class name="com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Navigate_To_Personal_Loans_Page"/>
+          <include name="methodName"/>
+          <include name="beforeClass"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage -->
+      <class name="com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Navigate_to_Personal_Loan_Calculator"/>
+          <include name="methodName"/>
+          <include name="beforeClass"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan -->
+    </classes>
+  </test> <!-- ParameterTest 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
