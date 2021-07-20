@@ -187,8 +187,6 @@ public class ActionDriver {
 	}
 
 
-
-
 	//Method to add screenshots for failed tests
 	public String screenShort() {
 
