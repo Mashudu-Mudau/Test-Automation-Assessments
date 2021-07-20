@@ -14,5 +14,18 @@
 				name="com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan" />
 		</classes>
 	</test> <!-- Test -->
+	
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="https://www.oldmutualfinance.co.za/" />
+	<test name="ParameterTest 2">
+		<classes>
+			<class
+				name="com.OldMutualFinance.QA.TestCase_Scripts.TC001_testHomePage" />
+			<class
+				name="com.OldMutualFinance.QA.TestCase_Scripts.TC002_testPersonalLoansPage" />
+			<class
+				name="com.OldMutualFinance.QA.TestCase_Scripts.TC003_testCalculatePersonalLoan" />
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->
